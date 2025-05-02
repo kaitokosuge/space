@@ -16,6 +16,9 @@ body {
 .mt-5 {
   margin-top: 10px;
 }
+.mt-30 {
+  margin-top: 60px;
+}
 .change__btn:first-child {
   margin-top: 0px;
 }
