@@ -8,6 +8,35 @@ body {
   transition: 0.3s;
   background: rgb(235, 235, 235);
 }
+.ml-5{
+  margin-right: 60px;
+}
+.flex-kk{
+  display:block;
+  flex-wrap: wrap;
+}
+
+@media(min-width:768px){
+  .flex-kk{
+    display:flex;
+    flex-wrap: wrap;
+  }
+}
+.grid-kk{
+  display: grid;
+  gap: 20px;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.text-md{
+  font-size: 13px;
+}
+.text-sm{
+  font-size: 11px;
+}
+.text-gray-100{
+  color:gray;
+  font-size: 11px;
+}
 .dark {
   background: rgb(23, 29, 40);
   color: white;
@@ -166,7 +195,7 @@ body {
 }
 .kv__text p {
   margin-top: 20px;
-  font-size: 12px !important;
+  font-size: 13px !important;
   line-height: 1.9;
   width: 90%;
 }
@@ -183,7 +212,7 @@ body {
 .section__title:after {
   content: "";
   position: absolute;
-  width: 20px;
+  width: 30px;
   height: 1px;
   background: rgb(100, 100, 100);
   top: -10%;
