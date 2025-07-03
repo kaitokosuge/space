@@ -8,10 +8,32 @@ body {
   transition: 0.3s;
   background: rgb(235, 235, 235);
 }
+
+.w-150px{
+  width:100px;
+  display: block;
+}
+
+.w-150px:hover{
+  opacity: .5;
+  transition: all .3s;
+}
+
 .ml-5{
   margin-right: 60px;
 }
+.w-fit{
+  width:fit-content;
+}
+.mx-auto{
+  margin: 0 auto;
+}
 .flex-kk{
+  display:flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.block-kk{
   display:block;
   flex-wrap: wrap;
 }
@@ -21,11 +43,20 @@ body {
     display:flex;
     flex-wrap: wrap;
   }
+  .block-kk{
+    display:flex;
+    flex-wrap: wrap;
+  }
 }
 .grid-kk{
   display: grid;
   gap: 20px;
   grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.grid-kk2{
+  display: grid;
+  gap: 10px;
+  grid-template-columns: 1fr 1fr 1fr;
 }
 .text-md{
   font-size: 13px;
